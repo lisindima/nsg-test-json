@@ -14,7 +14,7 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
-    "casual": "^1.6.0",
+    "casual": "^1.6.2",
     "chalk": "^2.3.0",
     "compression": "^1.7.1",
     "connect-pause": "^0.1.0",
@@ -24,7 +24,7 @@
     "express-urlrewrite": "^1.2.0",
     "faker": "^4.1.0",
     "json-parse-helpfulerror": "^1.0.3",
-    "lodash": "^4.11.2",
+    "lodash": "^4.17.15",
     "lodash-id": "^0.14.0",
     "lowdb": "^0.15.0",
     "method-override": "^2.3.10",
