@@ -19,7 +19,7 @@
     "compression": "^1.7.1",
     "connect-pause": "^0.1.0",
     "cors": "^2.8.4",
-    "errorhandler": "^1.2.0",
+    "errorhandler": "^1.5.1",
     "express": "^4.16.2",
     "express-urlrewrite": "^1.2.0",
     "faker": "^4.1.0",
