@@ -1,7 +1,39 @@
 {
+    "about_company": [
+        {
+            "info_company": "Компания ООО «НСГ – «РОСЭНЕРГО» является участником холдинга «РОСЭНЕРГО», который представляет собой многопрофильную бизнес-структуру, объединяющую страховой, туристический и агробизнес, который участвует собственными средствами в реализации 4-х федеральных программ, занимается оздоровительным туризмом, строительством жилья, сельским хозяйством. Наша компания на протяжении многих лет также вносит значительный вклад в развитие инвестиционных программ Республики Алтай и Алтайского края. У компании имеется собственная лечебная база, представленная ЭКО-курортом «Марьин остров» в Горном Алтае.",
+            "tel_number": "+7 (3852) 72-32-80",
+            "privacy_policy": ""
+        }
+    ],
+    "info_banner": [
+        {
+            "id": 1,
+            "title_banner": "Страховой полис \"Мой ребенок\"",
+            "subtitle_banner": "",
+            "url_banner": "https://nsg-rosenergo.ru/insurance/health/",
+            "url_image_banner": "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"
+        },
+        {
+            "id": 2,
+            "title_banner": "Полис ОСАГО",
+            "subtitle_banner": "Удобный сервис приобретения полиса е-ОСАГО.",
+            "url_banner": "https://nsg-rosenergo.ru/insurance/auto/osago/",
+            "url_image_banner": "https://nsg-rosenergo.ru/upload/iblock/c20/c206bbe95f637a47aa551988f26c7ea2.jpg"
+        }
+    ],
+    "user_profile": [
+        {
+            "id": 1,
+            "user_kbm": 3,
+            "lastname": "Иванов",
+            "firstname": "Иван",
+            "otchevstvo": "Иванович"
+        }
+    ],
     "filial_office": [
         {   
-            "id":1,
+            "id": 1,
             "name_region": "Алтайский край",
             "adress_filial_office": [
                 {
@@ -21,7 +53,7 @@
             ]
         },
         {   
-            "id":2,
+            "id": 2,
             "name_region": "Новосибирская область",
             "adress_filial_office": [
                 {
@@ -34,7 +66,7 @@
             ]
         },
         {   
-            "id":3,
+            "id": 3,
             "name_region": "Ленинградская область",
             "adress_filial_office": [
                 {
@@ -47,13 +79,12 @@
             ]
         }
     ],
-    "user_info": [
+    "user_polis": [
         {
-            "id":1,
-            "user_kbm": 3,
+            "id": 1,
             "polis": [
                 {
-                    "id":1,
+                    "id": 1,
                     "tip_polis":"ОСАГО",
                     "number_polis": "XXX6677554300",
                     "cost_polis":6800,
@@ -63,14 +94,14 @@
                     "reg_number":"H330AK77",
                     "drivers": [
                         {
-                            "id":1,
+                            "id": 1,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
                             "driver_license": 4874124200
                         },
                         {
-                            "id":2,
+                            "id": 2,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
@@ -79,7 +110,7 @@
                     ] 
                 },
                 {
-                    "id":2,
+                    "id": 2,
                     "tip_polis":"ОСАГО",
                     "number_polis": "XXX6677554300",
                     "cost_polis":4830,
@@ -89,14 +120,14 @@
                     "reg_number":"H330AK22",
                     "drivers": [
                         {
-                            "id":1,
+                            "id": 1,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
                             "driver_license": 4874124200
                         },
                         {
-                            "id":2,
+                            "id": 2,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
@@ -107,11 +138,11 @@
             ]
         },
         {
-            "id":1,
+            "id": 2,
             "user_kbm": 3,
             "polis": [
                 {
-                    "id":1,
+                    "id": 1,
                     "tip_polis":"ОСАГО",
                     "number_polis": "XXX6677554300",
                     "cost_polis":6800,
@@ -121,14 +152,14 @@
                     "reg_number":"H330AK77",
                     "drivers": [
                         {
-                            "id":1,
+                            "id": 1,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
                             "driver_license": 4874124200
                         },
                         {
-                            "id":2,
+                            "id": 2,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
@@ -137,24 +168,24 @@
                     ] 
                 },
                 {
-                    "id":2,
+                    "id": 2,
                     "tip_polis":"ОСАГО",
                     "number_polis": "XXX6677554300",
-                    "cost_polis":4830,
+                    "cost_polis": 4830,
                     "date_polis_end": "20.03.2020",
                     "download_polis_url": "example.com/e-polis",
                     "car":"AUDI Q5",
                     "reg_number":"H330AK22",
                     "drivers": [
                         {
-                            "id":1,
+                            "id": 1,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
                             "driver_license": 4874124200
                         },
                         {
-                            "id":2,
+                            "id": 2,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
@@ -165,28 +196,28 @@
             ]
         },
         {
-            "id":1,
+            "id": 3,
             "user_kbm": 5,
             "polis": [
                 {
-                    "id":1,
+                    "id": 1,
                     "tip_polis":"ОСАГО",
                     "number_polis": "XXX6677554300",
-                    "cost_polis":6800,
+                    "cost_polis": 6800,
                     "date_polis_end": "10.10.2020",
                     "download_polis_url": "example.com/e-polis",
                     "car":"AUDI Q7",
                     "reg_number":"H330AK77",
                     "drivers": [
                         {
-                            "id":1,
+                            "id": 1,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
                             "driver_license": 4874124200
                         },
                         {
-                            "id":2,
+                            "id": 2,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
@@ -195,24 +226,24 @@
                     ] 
                 },
                 {
-                    "id":2,
+                    "id": 2,
                     "tip_polis":"ОСАГО",
                     "number_polis": "XXX6677554300",
-                    "cost_polis":4830,
+                    "cost_polis": 4830,
                     "date_polis_end": "20.03.2020",
                     "download_polis_url": "example.com/e-polis",
                     "car":"AUDI Q5",
                     "reg_number":"H330AK22",
                     "drivers": [
                         {
-                            "id":1,
+                            "id": 1,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
                             "driver_license": 4874124200
                         },
                         {
-                            "id":2,
+                            "id": 2,
                             "driver_fio": "Иванов Иван Иванович",
                             "driver_date_born": "21.12.1990",
                             "driver_kbm": 3,
@@ -223,7 +254,7 @@
             ]
         },
         {
-            "id":2,
+            "id":4,
             "user_kbm": 3,
             "polis": [
                 {
@@ -281,7 +312,7 @@
             ]
         },
         {
-            "id":3,
+            "id":5,
             "user_kbm": 13,
             "polis": [
                 {
