@@ -28,7 +28,9 @@
             "user_kbm": 3,
             "lastname": "Иванов",
             "firstname": "Иван",
-            "otchevstvo": "Иванович"
+            "otchevstvo": "Иванович",
+            "number_last_polis": "XXX6677554300",
+            "data_last_polis": "21.10.2019"
         }
     ],
     "filial_office": [
