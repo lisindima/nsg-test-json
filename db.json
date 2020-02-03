@@ -28,9 +28,9 @@
             "user_kbm": 3,
             "lastname": "Иванов",
             "firstname": "Иван",
-            "otchestvo": "Иванович",
-            "number_last_polis": "XXX6677554300",
-            "data_last_polis": "21.10.2019"
+            "secondname": "Иванович",
+            "number_last_policy": "XXX6677554300",
+            "data_last_policy": "21.10.2019"
         }
     ],
     "filial_office": [
@@ -40,15 +40,17 @@
             "adress_filial_office": [
                 {
                     "adress": "658201, г.Рубцовск, пр. Калинина, 14-1",
-                    "coordinate_x": 53.343984,
-                    "coordinate_y": 83.770700,
+                    "services": ["Первая услуга", "Вторая услуга", "Третья услуга"],
+                    "latitude": 53.343984,
+                    "longtitude": 83.770700,
                     "work_time": "Пн-Пт 9.00-18.00, Обед 13.00-14.00",
                     "tel_number": ["+7(3855)75-99-24", "+7(3855)75-99-25", "+7(3855)75-99-26"]
                 },
                 {
                     "adress": "656049, г. Барнаул, пр.Социалистический, 45/ ул.Пролетарская, 91-26",
-                    "coordinate_x": 53.343984,
-                    "coordinate_y": 83.770700,
+                    "services": ["Первая услуга", "Вторая услуга", "Третья услуга"],
+                    "latitude": 53.343984,
+                    "longtitude": 83.770700,
                     "work_time": "Пн-Пт 9.00-18.00, Обед 13.00-14.00",
                     "tel_number": ["+7(3855)75-99-24", "+7(3855)75-99-25", "+7(3855)75-99-26"]
                 }
@@ -60,8 +62,9 @@
             "adress_filial_office": [
                 {
                     "adress": "630124, г.Новосибирск, ул. Есенина, 1а",
-                    "coordinate_x": 53.343984,
-                    "coordinate_y": 83.770700,
+                    "services": ["Первая услуга", "Вторая услуга", "Третья услуга"],
+                    "latitude": 53.343984,
+                    "longtitude": 83.770700,
                     "work_time": "Пн-чт 9.00-18.00, Пт. 9.00-17.00, Обед 13.00-14.00",
                     "tel_number": ["+7(383)362-03-26", "+7(383)227-92-54"]
                 }
@@ -73,25 +76,26 @@
             "adress_filial_office": [
                 {
                     "adress": "188300, г.Гатчина, ул. 7-й армии, д. 10",
-                    "coordinate_x": 53.343984,
-                    "coordinate_y": 83.770700,
+                    "services": ["Первая услуга", "Вторая услуга", "Третья услуга"],
+                    "latitude": 53.343984,
+                    "longtitude": 83.770700,
                     "work_time": "Пн-Пт 9.00-18.00, Обед 13.00-14.00",
                     "tel_number": ["+7(3855)75-99-24", "+7(3855)75-99-25", "+7(3855)75-99-26"]
                 }
             ]
         }
     ],
-    "user_polis": [
+    "user_policy": [
         {
             "id": 1,
-            "polis": [
+            "policy": [
                 {
                     "id": 1,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis":6800,
-                    "date_polis_end": "10.10.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy":6800,
+                    "date_policy_end": "10.10.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q7",
                     "reg_number":"H330AK77",
                     "drivers": [
@@ -113,11 +117,11 @@
                 },
                 {
                     "id": 2,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis":4830,
-                    "date_polis_end": "20.03.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy":4830,
+                    "date_policy_end": "20.03.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q5",
                     "reg_number":"H330AK22",
                     "drivers": [
@@ -145,11 +149,11 @@
             "polis": [
                 {
                     "id": 1,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis":6800,
-                    "date_polis_end": "10.10.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy":6800,
+                    "date_policy_end": "10.10.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q7",
                     "reg_number":"H330AK77",
                     "drivers": [
@@ -171,11 +175,11 @@
                 },
                 {
                     "id": 2,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis": 4830,
-                    "date_polis_end": "20.03.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy": 4830,
+                    "date_policy_end": "20.03.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q5",
                     "reg_number":"H330AK22",
                     "drivers": [
@@ -203,11 +207,11 @@
             "polis": [
                 {
                     "id": 1,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis": 6800,
-                    "date_polis_end": "10.10.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy": 6800,
+                    "date_policy_end": "10.10.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q7",
                     "reg_number":"H330AK77",
                     "drivers": [
@@ -229,11 +233,11 @@
                 },
                 {
                     "id": 2,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis": 4830,
-                    "date_polis_end": "20.03.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy": 4830,
+                    "date_policy_end": "20.03.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q5",
                     "reg_number":"H330AK22",
                     "drivers": [
@@ -261,11 +265,11 @@
             "polis": [
                 {
                     "id":1,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis":6800,
-                    "date_polis_end": "10.10.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy":6800,
+                    "date_policy_end": "10.10.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q7",
                     "reg_number":"H330AK77",
                     "drivers": [
@@ -287,11 +291,11 @@
                 },
                 {
                     "id":2,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis":4830,
-                    "date_polis_end": "20.03.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy":4830,
+                    "date_policy_end": "20.03.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q5",
                     "reg_number":"H330AK22",
                     "drivers": [
@@ -319,11 +323,11 @@
             "polis": [
                 {
                     "id":1,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis":6800,
-                    "date_polis_end": "10.10.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy":6800,
+                    "date_policy_end": "10.10.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q7",
                     "reg_number":"H330AK77",
                     "drivers": [
@@ -345,11 +349,11 @@
                 },
                 {
                     "id":2,
-                    "tip_polis":"ОСАГО",
-                    "number_polis": "XXX6677554300",
-                    "cost_polis":4830,
-                    "date_polis_end": "20.03.2020",
-                    "download_polis_url": "example.com/e-polis",
+                    "type_of_policy":"ОСАГО",
+                    "number_policy": "XXX6677554300",
+                    "cost_policy":4830,
+                    "date_policy_end": "20.03.2020",
+                    "download_policy_url": "example.com/e-polis",
                     "car":"AUDI Q5",
                     "reg_number":"H330AK22",
                     "drivers": [
