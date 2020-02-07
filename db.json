@@ -30,9 +30,14 @@
             "firstname": "Иван",
             "secondname": "Иванович",
             "number_last_policy": "XXX6677554300",
-            "data_last_policy": "21.10.2019",
-            "unread_user_message": 1,
-            "user_message": [
+            "data_last_policy": "21.10.2019"
+        }
+    ],
+    "user_message": [
+        {   
+            "user_id": 1,
+            "unread_user_message": 2,
+            "list_message": [
                 {
                     "id": 1,
                     "date_message": "21.12.1990, 12:22",
@@ -42,6 +47,13 @@
                 },
                 {
                     "id": 2,
+                    "date_message": "21.12.1990, 12:22",
+                    "title_message": "Срок действия полиса подходит к концу!",
+                    "body_message": "Полис: XXX6677554300 закончится 06.02.2020, не забудьте его продлить!",
+                    "isRead": false
+                },
+                {
+                    "id": 3,
                     "date_message": "21.12.1990, 12:22",
                     "title_message": "Срок действия полиса подходит к концу!",
                     "body_message": "Полис: XXX6677554300 закончится 06.02.2020, не забудьте его продлить!",
