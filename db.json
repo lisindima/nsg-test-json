@@ -30,14 +30,9 @@
             "firstname": "Иван",
             "secondname": "Иванович",
             "number_last_policy": "XXX6677554300",
-            "data_last_policy": "21.10.2019"
-        }
-    ],
-    "user_message": [
-        {   
-            "id": 1,
+            "data_last_policy": "21.10.2019",
             "unread_user_message": 2,
-            "list_message": [
+            "user_message": [
                 {
                     "id": 1,
                     "date_message": "21.12.1990, 12:22",
