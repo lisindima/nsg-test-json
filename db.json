@@ -6,7 +6,7 @@
             "privacy_policy": "https://nsg-rosenergo.ru/"
         }
     ],
-    "list_insurance_product": [
+    "my_defense_policy": [
         {
             "id": 1,
             "name_insurance_product": "Моя защита",
@@ -16,7 +16,8 @@
                 {
                     "policyholder_fio": "Иванов Иван Иванович",
                     "policyholder_date_born": "01.01.1996",
-                    "policyholder_passport": "0110 010101",
+                    "policyholder_passport_serial": "0110",
+                    "policyholder_passport_number": "010101",
                     "policyholder_mobile_telefon": "+79999999999",
                     "policyholde_email": "test@test.ru",
                     "policyholder_address": [
@@ -25,7 +26,7 @@
                             "city": "Барнаул",
                             "street": "Ленина 46",
                             "suite": "12"
-                        }	
+                        }
                     ]
                 }
             ],
@@ -33,7 +34,8 @@
                 {
                     "owner_fio": "Иванов Иван Иванович",
                     "owner_date_born": "01.01.1996",
-                    "owner_passport": "0110 010101",
+                    "owner_passport_serial": "0110",
+                    "owner_passport_number": "010101",
                     "owner_inn": "2221231234155",
                     "owner_mobile_telefon": "+79999999999",
                     "owner_email": "test@test.ru",
@@ -59,6 +61,237 @@
                     "venicle_category": "B",
                     "venicle_year_of_manufacture": "1997",
                     "venicle_engine_power": "72"
+                }
+            ],
+            "validity_period": [
+                {
+                    "begin_period": "22.12.19",
+                    "end_period": "23.12.19"
+                }
+            ]
+        }
+    ],
+    "osago_policy": [
+        {
+            "id": 1,
+            "name_insurance_product": "ОСАГО",
+            "date_create_policy": "23.11.2019",
+            "policyholder": [
+                {
+                    "policyholder_fio": "Иванов Иван Иванович",
+                    "policyholder_date_born": "01.01.1996",
+                    "policyholder_passport_serial": "0110",
+                    "policyholder_passport_number": "010101",
+                    "policyholder_mobile_telefon": "+79999999999",
+                    "policyholde_email": "test@test.ru",
+                    "policyholder_address": [
+                        {
+                            "region": "Алтайский край",
+                            "city": "Барнаул",
+                            "street": "Ленина 46",
+                            "suite": "12"
+                        }	
+                    ]
+                }
+            ],
+            "owner": [
+                {
+                    "owner_fio": "Иванов Иван Иванович",
+                    "owner_date_born": "01.01.1996",
+                    "owner_passport_serial": "0110",
+                    "owner_passport_number": "010101",
+                    "owner_inn": "2221231234155",
+                    "owner_mobile_telefon": "+79999999999",
+                    "owner_email": "test@test.ru",
+                    "owner_address": [
+                        {
+                            "region": "Алтайский край",
+                            "city": "Барнаул",
+                            "street": "Ленина 46",
+                            "suite": "12"
+                        }	
+                    ]
+                }
+            ],
+            "venicle": [
+                {
+                    "registration number": "H123HH22",
+                    "body_number": "rifho949242",
+                    "vin_number": "312eddjcjfdch3f2hd32",
+                    "chassis_number": "24rdij3i34r2f",
+                    "venicle_brand": "ВАЗ",
+                    "venicle_model": "21074",
+                    "venicle_type": "Легковая",
+                    "venicle_category": "B",
+                    "venicle_year_of_manufacture": "1997",
+                    "venicle_engine_power": "72"
+                }
+            ],
+            "validity_period": [
+                {
+                    "begin_period": "22.12.19",
+                    "end_period": "23.12.19"
+                }
+            ]
+        }
+    ],
+    "road_policy": [
+        {
+            "id": 1,
+            "name_insurance_product": "Дорожный",
+            "date_create_policy": "23.11.2019",
+            "number_policy": "XXX6677554300",
+            "policyholder": [
+                {
+                    "policyholder_fio": "Иванов Иван Иванович",
+                    "policyholder_date_born": "01.01.1996",
+                    "policyholder_passport_serial": "0110",
+                    "policyholder_passport_number": "010101",
+                    "policyholder_mobile_telefon": "+79999999999",
+                    "policyholde_email": "test@test.ru",
+                    "policyholder_address": [
+                        {
+                            "region": "Алтайский край",
+                            "city": "Барнаул",
+                            "street": "Ленина 46",
+                            "suite": "12"
+                        }
+                    ]
+                }
+            ],
+            "owner": [
+                {
+                    "owner_fio": "Иванов Иван Иванович",
+                    "owner_date_born": "01.01.1996",
+                    "owner_passport_serial": "0110",
+                    "owner_passport_number": "010101",
+                    "owner_inn": "2221231234155",
+                    "owner_mobile_telefon": "+79999999999",
+                    "owner_email": "test@test.ru",
+                    "owner_address": [
+                        {
+                            "region": "Алтайский край",
+                            "city": "Барнаул",
+                            "street": "Ленина 46",
+                            "suite": "12"
+                        }	
+                    ]
+                }
+            ],
+            "venicle": [
+                {
+                    "registration number": "H123HH22",
+                    "body_number": "rifho949242",
+                    "vin_number": "312eddjcjfdch3f2hd32",
+                    "chassis_number": "24rdij3i34r2f",
+                    "venicle_brand": "ВАЗ",
+                    "venicle_model": "21074",
+                    "venicle_type": "Легковая",
+                    "venicle_category": "B",
+                    "venicle_year_of_manufacture": "1997",
+                    "venicle_engine_power": "72"
+                }
+            ],
+            "validity_period": [
+                {
+                    "begin_period": "22.12.19",
+                    "end_period": "23.12.19"
+                }
+            ]
+        }
+    ],
+    "my_health_policy": [
+        {
+            "id": 1,
+            "name_insurance_product": "Моя защита",
+            "date_create_policy": "23.11.2019",
+            "sum_insured": 1,
+            "policyholder": [
+                {
+                    "policyholder_fio": "Иванов Иван Иванович",
+                    "policyholder_date_born": "01.01.1996",
+                    "policyholder_passport_serial": "0110",
+                    "policyholder_passport_number": "010101",
+                    "policyholder_mobile_telefon": "+79999999999",
+                    "policyholde_email": "test@test.ru",
+                    "policyholder_address": [
+                        {
+                            "region": "Алтайский край",
+                            "city": "Барнаул",
+                            "street": "Ленина 46",
+                            "suite": "12"
+                        }
+                    ]
+                }
+            ],
+            "owner": [
+                {
+                    "owner_fio": "Иванов Иван Иванович",
+                    "owner_date_born": "01.01.1996",
+                    "owner_passport_serial": "0110",
+                    "owner_passport_number": "010101",
+                    "owner_inn": "2221231234155",
+                    "owner_mobile_telefon": "+79999999999",
+                    "owner_email": "test@test.ru",
+                    "owner_address": [
+                        {
+                            "region": "Алтайский край",
+                            "city": "Барнаул",
+                            "street": "Ленина 46",
+                            "suite": "12"
+                        }	
+                    ]
+                }
+            ],
+            "validity_period": [
+                {
+                    "begin_period": "22.12.19",
+                    "end_period": "23.12.19"
+                }
+            ]
+        }
+    ],
+    "my_child_policy": [
+        {
+            "id": 1,
+            "name_insurance_product": "Моя ребенок",
+            "date_create_policy": "23.11.2019",
+            "sum_insured": 1,
+            "policyholder": [
+                {
+                    "policyholder_fio": "Иванов Иван Иванович",
+                    "policyholder_date_born": "01.01.1996",
+                    "policyholder_passport_serial": "0110",
+                    "policyholder_passport_number": "010101",
+                    "policyholder_mobile_telefon": "+79999999999",
+                    "policyholde_email": "test@test.ru",
+                    "policyholder_address": [
+                        {
+                            "region": "Алтайский край",
+                            "city": "Барнаул",
+                            "street": "Ленина 46",
+                            "suite": "12"
+                        }
+                    ]
+                }
+            ],
+            "owner": [
+                {
+                    "owner_fio": "Иванов Иван Иванович",
+                    "owner_date_born": "01.01.1996",
+                    "owner_passport_serial": "0110",
+                    "owner_passport_number": "010101",
+                    "owner_inn": "2221231234155",
+                    "owner_mobile_telefon": "+79999999999",
+                    "owner_email": "test@test.ru",
+                    "owner_address": [
+                        {
+                            "region": "Алтайский край",
+                            "city": "Барнаул",
+                            "street": "Ленина 46",
+                            "suite": "12"
+                        }	
+                    ]
                 }
             ],
             "validity_period": [
