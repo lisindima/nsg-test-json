@@ -19,7 +19,8 @@
                     "policyholder_passport_serial": "0110",
                     "policyholder_passport_number": "010101",
                     "policyholder_mobile_telefon": "+79999999999",
-                    "policyholde_email": "test@test.ru",
+                    "policyholder_email": "test@test.ru",
+                    "policyholder_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "policyholder_address": [
                         {
                             "region": "Алтайский край",
@@ -39,6 +40,7 @@
                     "owner_inn": "2221231234155",
                     "owner_mobile_telefon": "+79999999999",
                     "owner_email": "test@test.ru",
+                    "owner_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "owner_address": [
                         {
                             "region": "Алтайский край",
@@ -49,24 +51,16 @@
                     ]
                 }
             ],
-            "venicle": [
-                {
-                    "registration number": "H123HH22",
-                    "body_number": "rifho949242",
-                    "vin_number": "312eddjcjfdch3f2hd32",
-                    "chassis_number": "24rdij3i34r2f",
-                    "venicle_brand": "ВАЗ",
-                    "venicle_model": "21074",
-                    "venicle_type": "Легковая",
-                    "venicle_category": "B",
-                    "venicle_year_of_manufacture": "1997",
-                    "venicle_engine_power": "72"
-                }
-            ],
             "validity_period": [
                 {
                     "begin_period": "22.12.19",
                     "end_period": "23.12.19"
+                }
+            ],
+            "status": [
+                {
+                    "payment_completed": false,
+                    "verification_completed": false
                 }
             ]
         }
@@ -83,7 +77,8 @@
                     "policyholder_passport_serial": "0110",
                     "policyholder_passport_number": "010101",
                     "policyholder_mobile_telefon": "+79999999999",
-                    "policyholde_email": "test@test.ru",
+                    "policyholder_email": "test@test.ru",
+                    "policyholder_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "policyholder_address": [
                         {
                             "region": "Алтайский край",
@@ -103,6 +98,7 @@
                     "owner_inn": "2221231234155",
                     "owner_mobile_telefon": "+79999999999",
                     "owner_email": "test@test.ru",
+                    "owner_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "owner_address": [
                         {
                             "region": "Алтайский край",
@@ -124,13 +120,20 @@
                     "venicle_type": "Легковая",
                     "venicle_category": "B",
                     "venicle_year_of_manufacture": "1997",
-                    "venicle_engine_power": "72"
+                    "venicle_engine_power": "72",
+                    "venicle_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"]
                 }
             ],
             "validity_period": [
                 {
                     "begin_period": "22.12.19",
                     "end_period": "23.12.19"
+                }
+            ],
+            "status": [
+                {
+                    "payment_completed": false,
+                    "verification_completed": false
                 }
             ]
         }
@@ -148,7 +151,8 @@
                     "policyholder_passport_serial": "0110",
                     "policyholder_passport_number": "010101",
                     "policyholder_mobile_telefon": "+79999999999",
-                    "policyholde_email": "test@test.ru",
+                    "policyholder_email": "test@test.ru",
+                    "policyholder_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "policyholder_address": [
                         {
                             "region": "Алтайский край",
@@ -168,6 +172,7 @@
                     "owner_inn": "2221231234155",
                     "owner_mobile_telefon": "+79999999999",
                     "owner_email": "test@test.ru",
+                    "owner_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "owner_address": [
                         {
                             "region": "Алтайский край",
@@ -189,13 +194,20 @@
                     "venicle_type": "Легковая",
                     "venicle_category": "B",
                     "venicle_year_of_manufacture": "1997",
-                    "venicle_engine_power": "72"
+                    "venicle_engine_power": "72",
+                    "venicle_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"]
                 }
             ],
             "validity_period": [
                 {
                     "begin_period": "22.12.19",
                     "end_period": "23.12.19"
+                }
+            ],
+            "status": [
+                {
+                    "payment_completed": false,
+                    "verification_completed": false
                 }
             ]
         }
@@ -213,7 +225,8 @@
                     "policyholder_passport_serial": "0110",
                     "policyholder_passport_number": "010101",
                     "policyholder_mobile_telefon": "+79999999999",
-                    "policyholde_email": "test@test.ru",
+                    "policyholder_email": "test@test.ru",
+                    "policyholder_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "policyholder_address": [
                         {
                             "region": "Алтайский край",
@@ -233,6 +246,7 @@
                     "owner_inn": "2221231234155",
                     "owner_mobile_telefon": "+79999999999",
                     "owner_email": "test@test.ru",
+                    "owner_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "owner_address": [
                         {
                             "region": "Алтайский край",
@@ -247,6 +261,12 @@
                 {
                     "begin_period": "22.12.19",
                     "end_period": "23.12.19"
+                }
+            ],
+            "status": [
+                {
+                    "payment_completed": false,
+                    "verification_completed": false
                 }
             ]
         }
@@ -264,7 +284,8 @@
                     "policyholder_passport_serial": "0110",
                     "policyholder_passport_number": "010101",
                     "policyholder_mobile_telefon": "+79999999999",
-                    "policyholde_email": "test@test.ru",
+                    "policyholder_email": "test@test.ru",
+                    "policyholder_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "policyholder_address": [
                         {
                             "region": "Алтайский край",
@@ -284,6 +305,7 @@
                     "owner_inn": "2221231234155",
                     "owner_mobile_telefon": "+79999999999",
                     "owner_email": "test@test.ru",
+                    "owner_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
                     "owner_address": [
                         {
                             "region": "Алтайский край",
@@ -298,6 +320,12 @@
                 {
                     "begin_period": "22.12.19",
                     "end_period": "23.12.19"
+                }
+            ],
+            "status": [
+                {
+                    "payment_completed": false,
+                    "verification_completed": false
                 }
             ]
         }
