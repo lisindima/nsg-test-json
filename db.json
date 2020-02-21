@@ -215,7 +215,7 @@
     "my_health_policy": [
         {
             "id": 1,
-            "name_insurance_product": "Моя защита",
+            "name_insurance_product": "Моё здоровье",
             "date_create_policy": "23.11.2019",
             "sum_insured": 1,
             "policyholder": [
@@ -274,7 +274,7 @@
     "my_child_policy": [
         {
             "id": 1,
-            "name_insurance_product": "Моя ребенок",
+            "name_insurance_product": "Мой ребенок",
             "date_create_policy": "23.11.2019",
             "sum_insured": 1,
             "policyholder": [
