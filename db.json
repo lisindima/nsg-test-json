@@ -160,7 +160,7 @@
             "id": 1,
             "name_insurance_product": "Дорожный",
             "date_create_policy": "23.11.2019",
-            "number_policy": "XXX6677554300",
+            "sum_insured": 1,
             "policyholder": [
                 {
                     "policyholder_fio": "Иванов Иван Иванович",
