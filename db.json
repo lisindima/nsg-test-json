@@ -69,6 +69,7 @@
         {
             "id": 1,
             "name_insurance_product": "ОСАГО",
+            "no_limits_policy": false,
             "date_create_policy": "23.11.2019",
             "policyholder": [
                 {
@@ -107,6 +108,22 @@
                             "suite": "12"
                         }	
                     ]
+                }
+            ],
+            "drivers": [
+                {
+                    "id": 1,
+                    "driver_fio": "Иванов Иван Иванович",
+                    "driver_date_born": "21.12.1990",
+                    "driver_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
+                    "driver_license": 4874124200
+                },
+                {
+                    "id": 2,
+                    "driver_fio": "Иванов Иван Иванович",
+                    "driver_date_born": "21.12.1990",
+                    "driver_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"],
+                    "driver_license": 4874124200
                 }
             ],
             "venicle": [
@@ -181,21 +198,6 @@
                             "suite": "12"
                         }	
                     ]
-                }
-            ],
-            "venicle": [
-                {
-                    "registration number": "H123HH22",
-                    "body_number": "rifho949242",
-                    "vin_number": "312eddjcjfdch3f2hd32",
-                    "chassis_number": "24rdij3i34r2f",
-                    "venicle_brand": "ВАЗ",
-                    "venicle_model": "21074",
-                    "venicle_type": "Легковая",
-                    "venicle_category": "B",
-                    "venicle_year_of_manufacture": "1997",
-                    "venicle_engine_power": "72",
-                    "venicle_photo_documents": ["https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg", "https://nsg-rosenergo.ru/upload/iblock/5d5/5d5eb203bb1071e46c8eea9fa194e0a3.jpg"]
                 }
             ],
             "validity_period": [
